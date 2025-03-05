@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Close Friends for Instagram",
+  "version": "1.0",
+  "description": "Manage your Instagram Close Friends list easily",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "cookies"
+  ],
+  "host_permissions": [
+    "https://www.instagram.com/*",
+    "https://apclose.vrprime.com.br/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+} 
